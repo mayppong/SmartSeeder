@@ -121,10 +121,10 @@ class SeedMigrator extends Migrator {
 
         if ($pretend)
         {
-            return $this->pretendToRun($migration, 'run');
+            return $this->pretendToRun($migration, 'up');
         }
 
-        $migration->run();
+        $migration->up();
 
         // Once we have run a migrations class, we will log that it was run in this
         // repository so that we don't try to run it next time we do a migration
