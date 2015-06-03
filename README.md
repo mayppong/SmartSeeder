@@ -38,4 +38,4 @@ Installation
 
 - Since I didn't register my package with composer, you will want to run git clone to grab my file into your vendor folder then dump the autoload manually.
 - Add 'Jlapp\SmartSeeder\SmartSeederServiceProvider' to your providers array in config/app.php
-- Run `php artisan config:publish mayppong/smart-seeder` to push config files to your app folder if you want to override the name of the seeds folder or the name of the table where seeds are stored
+- Run `php artisan vendor:publish mayppong/smart-seeder` to push config files to your app folder if you want to override the name of the seeds folder or the name of the table where seeds are stored
