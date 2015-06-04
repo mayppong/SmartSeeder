@@ -1,6 +1,5 @@
 # SmartSeeder for Laravel
 
-<<<<<<< HEAD
 *Note*: This is a fork of slampenny's SmartSeeder which is currently being developed to work with Laravel 5. I happen to need it to be working ASAP. Not wanting to wait around for the original maintainer to approve my patches, I made a new branch called `5.0-plinth` where I merge all my pull request into. They are not yet thoroughly tested and shouldn't be used in the production environment (irony).
 
 ### For Laravel 5, please use the [5.0 branch](https://github.com/slampenny/SmartSeeder/tree/5.0)!
